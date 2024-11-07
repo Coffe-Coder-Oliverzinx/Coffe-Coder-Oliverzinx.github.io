@@ -1,0 +1,180 @@
+/*INICIO*/
+.nav{
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+#navp1{
+    transition-timing-function: ease;
+    transition-property: border-style border-width border-bottom-width;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+}
+#navp1:hover{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+}
+
+/*DIAS EM GERAL*/
+.dias-1{
+    display: flex;
+    justify-content: center;
+}
+.dias-2{
+    display: flex;
+    justify-content: center;
+}
+
+/*DIA 1*/
+.dia1{
+    color: #ffffff;
+    background-image: linear-gradient(to left, #311818, #310606);
+    text-align: center;
+    font-size: 130%;
+    font-family:cursive;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition-timing-function: ease;
+    transition-property: border-radius;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+}
+.dia1:hover{
+    background-image: linear-gradient(to left, #3a1111, #5c0f0f);
+    border-radius: 70px;
+}
+.dia1 h2{
+    transition-timing-function: ease;
+    transition-property: border-style border-width border-bottom-width color;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+}
+.dia1 h2:hover{
+    color: #ff7e7e;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+}
+
+/*DIA 2*/
+.dia2{
+    color: #ffffff;
+    background-image: linear-gradient(to right, #141330, #110f42);
+    text-align: center;
+    font-size: 130%;
+    font-family:cursive;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition-timing-function: ease;
+    transition-property: border-radius ;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+}
+.dia2:hover{
+    background-image: linear-gradient(to right, #0b0a2e, #15116e);
+    border-radius: 70px;
+}
+.dia2 h2{
+    transition-timing-function: ease;
+    transition-property: border-style border-width border-bottom-width color;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+}
+.dia2 h2:hover{
+    color: #8e88ff;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+}
+
+/*DIA 3*/
+.dia3{
+    color: #ffffff;
+    background-image: linear-gradient(to left, #133019, #044611);
+    text-align: center;
+    font-size: 130%;
+    font-family:cursive;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition-timing-function: ease;
+    transition-property: border-radius;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+}
+.dia3:hover{
+    background-image: linear-gradient(to left, #132716, #086b1c);
+    border-radius: 70px;
+}
+.dia3 h2{
+    transition-timing-function: ease;
+    transition-property: border-style border-width border-bottom-width color;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+}
+.dia3 h2:hover{
+    color: #80ff99;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+}
+
+/*DIA 4*/
+.dia4{
+    color: #ffffff;
+    background-image: linear-gradient(to right, #271831, #2e0d44);
+    text-align: center;
+    font-size: 130%;
+    font-family:cursive;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition-timing-function: ease;
+    transition-property: border-radius;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+}
+.dia4:hover{
+    background-image: linear-gradient(to right, #341847, #3f0764);
+    border-radius: 70px;
+}
+.dia4 h2{
+    transition-timing-function: ease;
+    transition-property: border-style border-width border-bottom-width color;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+}
+.dia4 h2:hover{
+    color: #cf86ff;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+}
+
+/*BOTÃO DE VOLTAR AO TOPO*/
+.topo{
+    position: fixed;
+        left: 1270px;
+        top: 625px;
+}
